@@ -24,7 +24,8 @@ header{
 }
 
 .flex > div{
-    background: #8A2A96;
+    background: radial-gradient(#892a9691, #9198e5d4);
+    /*background: #8A2A96;*/
     flex: 1 1 200px;
     margin: 10px;
     color: white;
@@ -32,6 +33,11 @@ header{
     border-radius: 15px;
     cursor: pointer;
     box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.227);
+    align-items: center;
+}
+
+.flex > div img{
+    width: 50px;
 }
 
 .video22{
@@ -75,7 +81,8 @@ header{
     margin: auto;
 }
 .leituras h3{
-    background: #8A2A96;
+    /*background: #8A2A96;*/
+    background: radial-gradient(#892a9691, #9198e5d4);
     padding: 5px;
     margin: 15px;
     color: white;
@@ -110,7 +117,8 @@ header{
     transform: scale(1.5);
 }
 #selecionado{
-    background: #892a9691;
+    
+    background: radial-gradient(#892a9691, #9198e580);
     border-radius: 5px;
 }
 
