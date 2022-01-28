@@ -24,7 +24,7 @@ header{
 }
 
 .flex > div{
-    background: radial-gradient(#892a9691, #9198e5d4);
+    background: radial-gradient(#892a9691, #6730ec);
     /*background: #8A2A96;*/
     flex: 1 1 200px;
     margin: 10px;
@@ -82,7 +82,7 @@ header{
 }
 .leituras h3{
     /*background: #8A2A96;*/
-    background: radial-gradient(#892a9691, #9198e5d4);
+    background: radial-gradient(#892a9691, #6730ec);
     padding: 5px;
     margin: 15px;
     color: white;
