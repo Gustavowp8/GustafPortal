@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    font-family: 'Neonderthaw', cursive;
+    text-align: center;
+    color: #8A2A96;
+}
+
+.acesso{
+    /*background: saddlebrown;*/
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+}
+
+.acesso > div{
+    max-width: 400px;
+    margin: auto;
+}
+
+.opc{
+    background: #8A2A96;
+    border-radius: 15px;
+    margin: 10px;
+    font-weight: bolder;
+    font-size: 20pt;
+    padding: 5;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.opc2{
+    background: red;
+    border-radius: 15px;
+    margin: 10px;
+    font-weight: bolder;
+    font-size: 20pt;
+    padding: 5;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.sabermais{
+    display: none;
+    background: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: black;
+    text-align: center;
+    overflow: scroll;
+}
+
+.sabermais1{
+    background: white;
+    max-width: 400px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.sabermais1 img{
+    width: 100px;
+}
+
+.aviso{
+    display: none;
+    background: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: black;
+    text-align: center;
+    overflow: scroll;
+}
+.aviso2{
+    background: white;
+    max-width: 400px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 15px;   
+}
+.avisofechar{
+    background: red;
+    border-radius: 15px;
+    margin: 10px;
+    font-weight: bolder;
+    font-size: 20pt;
+    padding: 5;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}

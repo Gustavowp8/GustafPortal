@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    /*background: #8A2A96;*/
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.flex{
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.flex > div{
+    background: #8A2A96;
+    flex: 1 1 200px;
+    margin: 10px;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.227);
+}
+
+.video22{
+    max-width: 800px;
+    margin: auto;
+    /*background: blue;*/
+}
+
+.video222{
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.227);
+}
+.tTitulo{
+    text-align: center;
+}
+
+.mwgtow{
+    max-width: 800px;
+    margin: auto;
+    background-image: url(../arquivos/imagens/fundoMgtw.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.227);
+
+    font-weight: bolder;
+    font-family: 40pt;
+    color: yellow;
+    text-shadow: 5px 5px 5px black;
+    cursor: pointer;
+}
+
+.leituras{
+    max-width: 800px;
+    margin: auto;
+}
+.leituras h3{
+    background: #8A2A96;
+    padding: 5px;
+    margin: 15px;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.menu1{
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.menu2{
+    background: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding: 2px;
+}
+.menu2 img{
+    width: 30px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.menu2 img:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+#selecionado{
+    background: #892a9691;
+    border-radius: 5px;
+}
+
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 45px;
+}
+
+@media(max-width: 600px){
+    .flex > div{
+        flex: 1 0 150px;
+    }
+    .video22{
+        margin: 10px;
+    }
+}

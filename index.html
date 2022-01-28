@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-colo" content="#8A2A96">
+    <link rel="shortcut icon" href="arquivos/icones/logohomempequeno.png" type="image/x-icon">
+    <title>Gustaf Portal</title>
+    <link rel="stylesheet" href="estilo/style.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Gustaf Sétimo</h1>
+    </header>
+
+    <div class="acesso">
+
+        <div>
+            <img src="arquivos/icones/logohomempequeno.png" alt="">
+        </div>
+
+
+        <div class="opc" onclick="irInicial()">
+            <p>Entrar</p>
+        </div>
+
+        <div class="opc" onclick="fazerCadastro()">
+            <p>Cadastrar</p>
+        </div>
+        
+        <a href="#" onclick="chamaAviso()">Saber mais</a>
+
+    </div>
+
+    <div class="sabermais" id="sabermais">
+        <h1>Ficha de cadastro</h1>
+        <div class="sabermais1">
+            <img src="arquivos/icones/registro.png"><br> 
+
+            <p><input type="text" name="Unome" id="Unome" placeholder="Primeiro nome"></p>
+            <p><input type="text" name="sobreNome" id="sobreNome" placeholder="Sobrenome"></p>
+            <p><input type="number" name="eTele" id="eTele" placeholder="Telefone"></p> <br>
+            <p>
+                Não se preocupe, o Gustaf tem a politica de não compartilhar os seus dados pessoais, vamos fazer o possível para mantê-los seguros, o motivo do cadastro e para oferecemos serviços e outros produtos.
+            </p>
+            <div class="opc" onclick="confirma()">
+                <p>Confirmar</p>
+            </div>
+
+            <div class="opc2" onclick="fecharCadastro()">
+                <p>Cancelar</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="aviso" id="aviso">
+        <div class="aviso2">
+
+            <h2>Sobre o site Gustaf</h2>
+            
+            <p>
+                O Gustaf Sétimo é uma iniciativa privada com o intuito do desenvolvimento do homem, a nossa proposta é ajudar de alguma forma todos os homens que desejam crescer na vida e se desenvolver profissionalmente e mentalmente. <br><br>
+
+Aqui neste portal nós vamos oferecer vagas de emprego, dicas de investimento, ajuda social, e vamos fazer sorteio de rifas para quem deseja tentar a sorte e fazer uma grana ou realizar o sonho de ter um carro. <br><br>
+
+Sobre as rifas - Vamos fazer semanalmente o sorteio de rifas, os primeiros prêmios vão ser em dinheiro até porque nós precisamos testar o nosso sistema, o número de participantes sempre terá o limite de 200 pessoas, assim aumenta a chance de quem está participando ganhar. <br><br>
+
+Sobre ajuda - Nós vamos todos os meses sortear até 10 cestas básicas para pais de família, essa ajuda vai depender de doações dos integrantes do grupo Gustaf.<br><br>
+
+Sobre emprego - Vamos divulgar vagas de emprego e fazer indicações dos membros do grupo Gustaf, essa vagas vai depender de parceiros e de empresas anunciantes. <br><br>
+
+Sobre social - nós vamos fazer uma pequena rede social porém ela estará disponível somente em agosto e inicialmente somente para os membros do grupo Gustaf.<br><br>
+
+Fique ligado, o nosso site terá atualizações e novidades constantes principalmente nesta versão de testes. 
+            </p>
+        </div>
+        <div class="avisofechar" onclick="avisofechar()">FECHAR</div>
+    </div>
+
+    <script src="estilo/app.js"></script>
+
+</body>
+</html>
