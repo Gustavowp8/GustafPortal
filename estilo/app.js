@@ -41,7 +41,29 @@ function avisofechar(){
 function chamaAviso(){
     aviso.style.display= 'block'
 }
+
+function fecharAjuda(){
+    ajuda.style.display= 'none'
+}
+
+function chamaAjuda(){
+    ajuda.style.display='block'
+}
+
+function empregoAbrir(){
+    emprego.style.display='block'
+}
+
+function empregoFechar(){
+    emprego.style.display='none'
+}
+
 function inicial(){
     var nomeT = localStorage.nomeUsuario
     nomeTopo.innerHTML = `Olá ${nomeT}`
+}
+
+function CVonline(){
+    alert('Você vai ser direcionado para outra pagina!')
+    location='https://gustavowp8.github.io/curriculum/'
 }

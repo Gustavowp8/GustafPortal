@@ -26,12 +26,12 @@
         Rifas</h2>
         </div>
 
-        <div>
+        <div onclick="chamaAjuda()">
             <h2><img src="arquivos/icones/ajuda2.png" alt=""> <br>
             Ajuda</h2>
         </div>
 
-        <div>
+        <div onclick="empregoAbrir()">
             <h2><img src="arquivos/icones/cv.png" alt=""> <br>
             Emprego</h2>
         </div>
@@ -92,6 +92,39 @@
 
         </div>
     </div>
+
+    <div class="ajuda" id="ajuda">
+        <div class="ajuda1">
+            <h2><img src="arquivos/icones/ajuda2.png" width="190px"> <br> Ajuda</h2>
+            <p>AJUDA - Você pode ajudar o próximo enviando alimentos, roupas ou material para estudos, nós não recomendamos o envio de dinheiro em nenhuma hipótese. <br><br>
+                AJUDA-ME - Você pode publicar um pedido de ajuda envie pelo menos duas fotos da sua situação, um voluntário pode ver o seu pedido de ajuda e assim enviar os mantimentos.</p> <br><br>
+                <button>AJUDAR</button> <button>PEDIR AJUDA</button>
+        </div> <br>
+        <div class="ajudafechar" onclick="fecharAjuda()">FECHAR</div>
+    </div>
+
+    <div class="emprego" id="emprego">
+        <div class="emprego1">
+            <h2>
+                <img src="arquivos/icones/cv.png" width="190px"> <br>
+                Emprego
+            </h2>
+            <p>
+            Anunciar - Você pode anunciar que está a procura de um voluntário para trabalhar CLT ou PJ ou até mesmo oferecer um estágio. <br><br>
+
+            Buscar - Você pode verificar se há oportunidades na sua região.<br><br>
+
+            Fazer um currículo - Você pode fazer um currículo em PDF de forma fácil e rápida, e assim imprimir ou enviar por e-mail, em breve vamos disponibilizar temas dos currículos e mais opções para fazer o mesmo. <br><br>
+            </p>
+
+            <button>Anuciar uma vaga</button> <br><br>
+            <button>Buscar por uma vaga</button> <br><br>
+            <button onclick="CVonline()">Fazer um curriculo</button>
+        </div> <br>
+        <div class="empregoFechar" onclick="empregoFechar()">FECHAR</div>
+    </div> <br>
+
+    <h1 class="tTitulo">Parceios do site Gustaf Sétimo</h1>
 
     <footer>
         &copy;Gage Developer 2022
